@@ -34,7 +34,7 @@ function AdminControls() {
         "WithdrawCommission")
 
     const drawWinner = async() =>{
-        const notification = toast.loading("Picking a Lucky Winnier...")
+        const notification = toast.loading("Picking a Lucky Winner...")
         
         try{
             const data = await DrawWinnerTicket([{}]);
